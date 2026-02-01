@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
     server: {
-    allowedHosts: ["weather-app-react-ls9s.onrender.com"],
+    allowedHosts: "all",
   },
 })
