@@ -4,4 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+    server: {
+    allowedHosts: ["weather-app-react-ls9s.onrender.com"],
+  },
 })
